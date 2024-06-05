@@ -1,10 +1,3 @@
-#%%
-#バージョン2：CSVで複数企業を分析できる仕様に変換する
-
-#conda activate py39_nekoteki
-#streamlit run G:\マイドライブ\python\python_code\streamlit_app_nekoteki_v2\app.py #home
-#streamlit run F:\マイドライブ\python\python_code\streamlit_app_nekoteki_v2\app.py #univ
-
 import plotly.express as px
 import streamlit as st
 import pandas as pd
@@ -28,13 +21,7 @@ import chardet
 import networkx as nx
 from networkx.algorithms.community import louvain_communities
 
-os.chdir(r"G:\マイドライブ\python\python_code\streamlit_app_nekoteki_v2") #home
-#os.chdir(r"F:\マイドライブ\python\python_code\streamlit_app_nekoteki_v2") #univ
-
 st.write("最終更新日：2024年＊月＊日")
-
-#%%
-#3.streamlitでユーザー辞書をアップロードしてから使う
 
 def make_wordcloud(word_freq):
     # WordCloud オブジェクトの生成
