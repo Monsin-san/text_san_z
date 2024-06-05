@@ -1,5 +1,5 @@
 streamlit==1.35.0
-plotly==-5.22.0
+plotly==5.22.0
 janome==0.5.0
 matplotlib==3.9.0
 networkx==3.3
